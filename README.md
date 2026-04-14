@@ -23,15 +23,15 @@ A secure, high-performance DNS-over-HTTPS (DoH) proxy running on Cloudflare's gl
 
 ## 🚀 Deployment
 
-### 1. Fork this Repository
-[Fork this project](../../fork) to your GitHub account to customize features and manage your own DNS rules.
+### 1. Fork & Setup Actions
+1. [Fork this project](../../fork) to your GitHub account.
+2. Go to the **Actions** tab in your forked repository and click **I understand my workflows, go ahead and enable them**.
 
 ### 2. Deploy to Cloudflare Pages
-1.  Go to [Workers & Pages > Pages > Create application > Connect to Git](https://dash.cloudflare.com/?to=/:account/pages/new/provider/github).
-2.  Connect your GitHub and select the forked repository.
-3.  **Build Settings**: Leave everything as **default** (no changes needed).
-4.  **Save and Deploy**.
-5.  **Important:** Go to the **Actions** tab in your GitHub repository and click **I understand my workflows, go ahead and enable them**.
+1. Go to [Workers & Pages > Create application > Connect to Git](https://dash.cloudflare.com/?to=/:account/pages/new/provider/github).
+2. Connect your GitHub and select the forked repository.
+3. **Build Settings**: Leave everything as **default** (no changes needed).
+4. Click **Save and Deploy**.
 
 ---
 
